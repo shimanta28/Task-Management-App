@@ -1,0 +1,25 @@
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 3px solid #ccc !important;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px black;
+  background-color: #eeeeee2a;
+}

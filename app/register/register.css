@@ -1,0 +1,35 @@
+form {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px black;
+  background-color: #eeeeee2a;
+}
+
+form .btn {
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+
+form input {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid black !important;
+  background-color: #eeeeee2a !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
